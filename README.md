@@ -19,6 +19,7 @@ Approaches Used
 Extractive summarization works by identifying the most significant sentences from the original document and concatenating them to form the summary. No new sentences are generated — the model “extracts” rather than “writes.”
 
 Approaches Implemented:
+
 a. BERT (Bidirectional Encoder Representations from Transformers)
 
 BERT is used to obtain contextual embeddings for each sentence. Each sentence is encoded, and cosine similarity with the document embedding is computed. Sentences most similar to the document are selected for the final summary.
@@ -36,6 +37,7 @@ Similar to LexRank but based purely on cosine similarity between TF-IDF vectors.
 Abstractive summarization generates summaries that paraphrase and rephrase the content, rather than directly copying sentences. This requires understanding context and semantics at a deeper level.
 
 Approaches Implemented:
+
 a. BART (Bidirectional and Auto-Regressive Transformers)
 
 Combines bidirectional encoding (like BERT) with autoregressive decoding (like GPT). Excels at abstractive summarization and paraphrasing tasks.
