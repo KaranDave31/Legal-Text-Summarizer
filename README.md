@@ -12,8 +12,9 @@ The goal of this project is to:
 •	Experiment with both extractive and abstractive summarization approaches.
 •	Evaluate which deep learning model performs best for legal text summarization.
 
-🧩 Approaches Used
-🔹 1. Extractive Summarization
+Approaches Used
+
+1. Extractive Summarization
 
 Extractive summarization works by identifying the most significant sentences from the original document and concatenating them to form the summary. No new sentences are generated — the model “extracts” rather than “writes.”
 
@@ -30,7 +31,7 @@ c. TextRank
 
 Similar to LexRank but based purely on cosine similarity between TF-IDF vectors. Identifies the most central sentences to represent the main theme.
 
-🔹 2. Abstractive Summarization
+2. Abstractive Summarization
 
 Abstractive summarization generates summaries that paraphrase and rephrase the content, rather than directly copying sentences. This requires understanding context and semantics at a deeper level.
 
